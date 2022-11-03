@@ -112,10 +112,7 @@ return (new Config())
     ->setFinder(
         (new Finder())
             ->in($dotsResolveDirRoot())
-            ->name('.php-cs-fixer.dist.php')
-            ->name('php-cs-fixer.dist.php')
-            ->ignoreDotFiles(false)
-            ->exclude(['.bldr', 'var', 'vendor'])
+            ->exclude(['.bldr', '.dots', 'var', 'vendor'])
     )
     ->setRules([
         '@Symfony' => true,
