@@ -1,0 +1,40 @@
+{
+    "name": "src-run/usr-src-builder-dots",
+    "license": "MIT",
+    "type": "library",
+    "homepage": "https://src.run/usr-src-builder-dots/home",
+    "description": "A simple collection of common dot files and related helper scripts for php projects.",
+    "support": {
+        "email": "rmf@src.run",
+        "source": "https://src.run/usr-src-builder-dots/git",
+        "issues": "https://src.run/usr-src-builder-dots/issues"
+    },
+    "keywords": [ "usr-src-builder-dots", "usr-src-builder", "usr-src", "dots", "rmf", "src-run" ],
+    "authors": [
+        {
+            "name": "Rob Frawley 2nd",
+            "email": "rmf@src.run",
+            "homepage": "https://src.run/rmf",
+            "role": "Project Lead"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "~3.2"
+    },
+    "autoload": {},
+    "autoload-dev": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "bin-dir": "bin",
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.20-dev"
+        }
+    }
+}
